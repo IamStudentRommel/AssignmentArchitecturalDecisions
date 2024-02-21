@@ -15,18 +15,20 @@ You are a team responsible for developing a new mobile app for a retail company.
 ### Native, Web, or Hybrid App
 The decision revolves around determining whether the application should adopt a native, web, or hybrid approach, considering factors such as performance, user experience, and development efficiency. Selecting the most suitable option is crucial, and the choice of the UI framework will significantly impact the design and implementation of the user interface.
 
-**Native App**
+### Offline Mode Support
 
-•	Pros:  Achieves optimal performance, ensures fluid user experience, and leverages platform-specific features for enhanced functionality.
-•	Cons: Requires separate development efforts for iOS and Android, potentially resulting in extended project timelines.
+- **Pros:** Achieves optimal performance, ensures fluid user experience, and leverages platform-specific features for enhanced functionality.
+- **Cons:** Requires separate development efforts for iOS and Android, potentially resulting in extended project timelines.
 
-**Web App**
-•	Pros: Provides compatibility across various platforms, allows for efficient updates, and can be accessed through standard web browsers.
-•	Cons: Faces limitations in accessing device-specific features and may experience performance trade-offs.
+### Web App
 
-**Hybrid App**
-•	Pros: Balance between cross-platform compatibility and native-like experience, single codebase.
-•	Cons: May not consistently match the performance of native apps in certain scenarios.
+- **Pros:** Provides compatibility across various platforms, allows for efficient updates, and can be accessed through standard web browsers.
+- **Cons:** Faces limitations in accessing device-specific features and may experience performance trade-offs.
+
+### Hybrid App
+
+ - **Pros:** Balance between cross-platform compatibility and native-like experience, single codebase.
+- **Pros:** May not consistently match the performance of native apps in certain scenarios.
 
 ### Decision:
 The development will focus on creating a mobile app with native features.
@@ -37,30 +39,35 @@ A native mobile app is preferred in this scenario due to its superior speed and 
 # UI Framework
 Choosing the UI framework for the application will focus on meeting key features crucial for the retail company's needs. This decision is based on the company's detailed identification of essential features vital for the mobile app's success.
 
-**Offline Mode Support**
+### Offline Mode Support
 
-•	Rationale: Enable customers to browse products and view order history offline, with data synchronization once an internet connection is available.
-•	Recommendation: The selected UI framework should seamlessly facilitate offline mode capabilities and efficient data synchronization.
+- **Rationale:** Enable customers to browse products and view order history offline, with data synchronization once an internet connection is available.
+- **Recommendation:** The selected UI framework should seamlessly facilitate offline mode capabilities and efficient data synchronization.
 
-**Push Notification Integration**
-•	Rationale: Integrate with a push notification service to notify customers about order updates, new product arrivals, and exclusive offers.
-•	Recommendation: The UI framework must support easy integration with push notification services for effective communication with users.
+### Push Notification Integration
 
-**Payment Gateway Integration**
-•	Rationale: Integrate with various payment gateways for secure and convenient transactions.
-•	Recommendation: The chosen UI framework should allow seamless integration with selected payment gateways, considering factors such as security, ease of use, and platform compatibility.
+- **Rationale:** Integrate with a push notification service to notify customers about order updates, new product arrivals, and exclusive offers.
+- **Recommendation:** The UI framework must support easy integration with push notification services for effective communication with users.
 
-**Analytics Integration**
-•	Rationale: Integrate with an analytics tool or service to track user behavior and gather insights.
-•	Recommendation: The UI framework must support integration with analytics services that provide detailed metrics to enhance app performance and user experience.
+### Payment Gateway Integration
 
-**Image Handling and Optimization**
-•	Rationale: Display product images of varying sizes and resolutions with optimal performance.
-•	Recommendation: The UI framework should accommodate an image storage solution and support image optimization techniques, including caching, lazy loading, and compression.
+- **Rationale:** Integrate with various payment gateways for secure and convenient transactions.
+- **Recommendation:** The chosen UI framework should allow seamless integration with selected payment gateways, considering factors such as security, ease of use, and platform compatibility.
 
-**Internationalization and Localization**
-•	Rationale: Support multiple languages and adapt to cultural preferences for international expansion.
-•	Recommendation: The UI framework must enable the implementation of localization techniques, with a focus on selecting appropriate localization frameworks or libraries.
+### Analytics Integration
+
+- **Rationale:** Integrate with an analytics tool or service to track user behavior and gather insights.
+- **Recommendation:** The UI framework must support integration with analytics services that provide detailed metrics to enhance app performance and user experience.
+
+### Image Handling and Optimization
+
+- **Rationale:** Display product images of varying sizes and resolutions with optimal performance.
+- **Recommendation:** The UI framework should accommodate an image storage solution and support image optimization techniques, including caching, lazy loading, and compression.
+
+### Internationalization and Localization
+
+- **Rationale:** Support multiple languages and adapt to cultural preferences for international expansion.
+- **Recommendation:** The UI framework must enable the implementation of localization techniques, with a focus on selecting appropriate localization frameworks or libraries.
 
 ### Decision:
 The User Interface will be built using the React Native framework.
